@@ -41,7 +41,18 @@ const Projects = () => {
   tech: ["Java", "Spring Boot", "WebSocket", "STOMP", "MongoDB", "REST API", "HTML", "CSS", "JavaScript"],
   liveUrl: "",
   githubUrl: ""
-   }
+   },
+   {
+  id: 4,
+  title: "AI Image Generator Web Application",
+  description:
+    "A responsive AI-powered image generation web application built using HTML5, CSS3, JavaScript, and REST APIs. The application supports batch image generation, gallery management, persistent prompt history using LocalStorage, real-time progress indicators, and a mobile-first cross-device compatible UI for seamless user experience.",
+  image: "/Images/project-4.jpg",
+  tech: ["HTML5", "CSS3", "JavaScript", "REST API", "LocalStorage"],
+  liveUrl: "",
+  githubUrl: ""
+}
+
   
 
 
