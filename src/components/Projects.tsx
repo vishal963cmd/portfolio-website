@@ -49,7 +49,7 @@ const Projects = () => {
     "A responsive AI-powered image generation web application built using HTML5, CSS3, JavaScript, and REST APIs. The application supports batch image generation, gallery management, persistent prompt history using LocalStorage, real-time progress indicators, and a mobile-first cross-device compatible UI for seamless user experience.",
   image: "/Images/project-4.jpg",
   tech: ["HTML5", "CSS3", "JavaScript", "REST API", "LocalStorage"],
-  liveUrl: "",
+  liveUrl: "https://aman-016.github.io/AI-Image-Generator-/",
   githubUrl: ""
 }
 

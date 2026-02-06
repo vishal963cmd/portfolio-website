@@ -21,20 +21,42 @@ const About = () => {
   const imageRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
-  const skills = [
-    { icon: Globe, name: 'HTML5/CSS3', level: 95 },
-    { icon: Code, name: 'JavaScript', level: 90 },
-    { icon: Code, name: 'React/Redux', level: 95 },
-    { icon: Lightning, name: 'Tailwind CSS', level: 91 },
-    { icon: Cube, name: 'Bootstrap', level: 91 },
-    { icon: Rocket, name: 'Next.js', level: 85 },
-    { icon: Heart, name: 'UI/UX Design', level: 87 },
-    { icon: Terminal, name: 'Node.js/Express.js', level: 87 },
-    { icon: Database, name: 'MongoDB', level: 87 },
-    { icon: Database, name: 'PostgreSQL', level: 87 },
-    { icon: GitBranch, name: 'Git', level: 89 },
-    { icon: Cube, name: 'GitHub', level: 83 },
-  ];
+ const skills = [
+  // ===== Backend Core =====
+  { icon: Code, name: 'Java (Core & OOPs)', level: 92 },
+  { icon: Rocket, name: 'Spring Boot', level: 90 },
+  { icon: Rocket, name: 'Spring MVC', level: 88 },
+  { icon: Rocket, name: 'Spring Security (JWT)', level: 85 },
+  { icon: Database, name: 'JPA / Hibernate', level: 88 },
+  { icon: Terminal, name: 'REST API Development', level: 90 },
+  { icon: Database, name: 'JDBC', level: 85 },
+  { icon: Cube, name: 'Maven / Gradle', level: 87 },
+
+  // ===== Database =====
+  { icon: Database, name: 'MySQL', level: 90 },
+  { icon: Database, name: 'PostgreSQL', level: 85 },
+  { icon: Database, name: 'MongoDB', level: 82 },
+
+  // ===== Frontend =====
+  { icon: Globe, name: 'HTML5', level: 90 },
+  { icon: Lightning, name: 'CSS3', level: 88 },
+  { icon: Code, name: 'JavaScript (ES6+)', level: 50 },
+  { icon: Code, name: 'React.js', level: 82 },
+  { icon: Cube, name: 'Bootstrap / Tailwind CSS', level: 86 },
+
+  // ===== Tools & DevOps =====
+  { icon: GitBranch, name: 'Git & GitHub', level: 90 },
+  { icon: Terminal, name: 'Postman / API Testing', level: 88 },
+  { icon: Cube, name: 'Docker (Basics)', level: 80 },
+ 
+
+  // ===== Advanced / Bonus =====
+  { icon: Rocket, name: 'WebSocket (Realtime Apps)', level: 82 },
+  { icon: Rocket, name: 'Microservices Basics', level: 78 },
+  { icon: Database, name: 'Redis (Caching Basics)', level: 70 }
+];
+
+
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -124,17 +146,13 @@ const About = () => {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I’m an aspiring Backend Developer with hands-on experience in
-              building secure, scalable, and high-performance web application
-              backends using Java, Spring Boot, Node.js, and Express along with
-              relational and NoSQL databases such as MySQL and MongoDB.
-            </p>
+I’m an aspiring Java Full Stack Developer with hands-on experience in building secure, scalable, and high-performance web applications using Java, Spring Boot, Spring MVC, JPA/Hibernate, and RESTful APIs, along with databases like MySQL and MongoDB.
+
+  </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I focus on RESTful API development, authentication, database
-              management, and writing clean, maintainable server-side code while
-              continuously improving my problem-solving and system design
-              skills.
+              I focus on developing clean backend architectures, implementing authentication and efficient database management, and creating responsive user interfaces using HTML, CSS, JavaScript, and React. I’m passionate about solving real-world problems, writing maintainable code, and continuously improving my system design and problem-solving skills.
+          
             </p>
 
             {/* ===== STATS ===== */}
